@@ -1,7 +1,17 @@
 {
-  "name": "js8path-server",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@js8path/js8path-server",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Server for js8path app and data.",
+  "author": {
+    "name": "Jeff Kunce, N0JUH",
+    "email": "js8path@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js8path/js8path-server"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "node ./bin/www"
   },

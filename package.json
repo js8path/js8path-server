@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "get-client": "./scripts/get-js8path-client 1.0.2",
+    "get-client": "sh ./scripts/get-js8path-client 1.0.2",
     "start": "node ./bin/www"
   },
   "dependencies": {

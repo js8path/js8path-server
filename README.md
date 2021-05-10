@@ -3,9 +3,19 @@ Server for js8path reports and app
 
 ## project setup
 
- - do ```npm install``` on @js8path/js8path-server
- - check out and build @js8path/js8path-vue 
- - copy @js8path/js8path-vue/dist/ contents into @js8path/js8path-server/public/js8path-vue
+ - clone @js8path/js8path-server
+ - install js8path-server
+ - download and extract @js8path/js8path-client 
+ - run js8path-server
+
+example:
+```
+cd <base directory>
+git clone https://github.com/js8path/js8path-server.git
+<git checkout specific branch>
+cd ./js8path-server
+npm run get-client
+```
 
 ## running server
 ```
@@ -14,7 +24,7 @@ npm run start
 
  - This will start the server on port 3000
    - to use other port, set env var PORT
- - js8path app will be at http://localhost:3000/js8path-vue
+ - js8path app will be at http://localhost:3000/js8path-client
 
 ## implementation notes
 

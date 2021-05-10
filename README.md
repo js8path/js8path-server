@@ -1,5 +1,8 @@
 # @js8path/js8path-server
-Server for js8path reports and app
+Server for js8path reports and app.
+
+@js8path/js8path-server v1.0.2 is compatible with 
+ - @js8path/js8path-client v1.0.2
 
 ## project setup
 
@@ -12,10 +15,13 @@ example:
 ```
 cd <base directory>
 git clone https://github.com/js8path/js8path-server.git
-<git checkout specific branch>
 cd ./js8path-server
+<git checkout specific branch>
+npm install
 npm run get-client
 ```
+
+Be sure to update the get-client version in package-json when versions are bumped.
 
 ## running server
 ```

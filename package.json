@@ -1,6 +1,6 @@
 {
   "name": "@js8path/js8path-server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "description": "Server for js8path app and data.",
   "author": {
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "get-client": "./scripts/get-js8path-client 1.0.2",
     "start": "node ./bin/www"
   },
   "dependencies": {

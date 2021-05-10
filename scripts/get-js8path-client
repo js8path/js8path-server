@@ -2,6 +2,7 @@
 # get-js8path-client
 # parameter $1 is version for @js8path/js8path-client
 # e.g.: $ ./get-js8path-client 1.0.2
+cd ./public
 curl -LJ https://github.com/js8path/js8path-client/archive/refs/tags/v$1.tar.gz \
  | tar zxv
 ln -sfn ./js8path-client-$1 ./js8path-client

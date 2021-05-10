@@ -1,0 +1,26 @@
+{
+  "name": "@js8path/js8path-server",
+  "version": "1.0.2",
+  "private": false,
+  "description": "Server for js8path app and data.",
+  "author": {
+    "name": "Jeff Kunce, N0JUH",
+    "email": "js8path@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js8path/js8path-server"
+  },
+  "license": "MIT",
+  "scripts": {
+    "get-client": "sh ./scripts/get-js8path-client 1.0.2",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-proxy-middleware": "^1.3.1",
+    "morgan": "~1.9.1"
+  }
+}

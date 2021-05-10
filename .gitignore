@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# JS8Path application build
+/public/js8path-client
+/public/js8path-client*/
